@@ -1,2 +1,6 @@
 language: csharp
-solution: Chat.sln
+mono: none
+dotnet: 6.o
+script:
+- dotnet build
+- dotnet test
